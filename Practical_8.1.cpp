@@ -114,8 +114,7 @@ void displayStudentReport(char enroll[],char name[],char branch[],int sem,int to
     cout<<"Semester : "<<sem<<endl;
     cout<<"Total Marks : "<<total<<endl;
 
-    cout<<fixed<<setprecision(2);
-    cout<<"Percentage : "<<percentage<<"%"<<endl;
+    cout<<fixed<<setprecision(2)<<"Percentage : "<<percentage<<"%"<<endl;
 
     cout<<"Grade : "<<grade<<endl;
 
